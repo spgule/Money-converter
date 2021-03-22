@@ -1,0 +1,88 @@
+@-webkit-keyframes click{
+    0% {background: linear-gradient(90deg, rgba(0,218,152,1) 0%, rgba(0,218,152,1) 100%);}
+    10% {background: linear-gradient(90deg, rgb(53, 226, 174) 10%, rgba(0,218,152,1) 100%);}
+    20% {background: linear-gradient(90deg, rgb(53, 226, 174) 20%, rgba(0,218,152,1) 100%);}
+    30% {background: linear-gradient(90deg, rgb(53, 226, 174) 30%, rgba(0,218,152,1) 100%);}
+    40% {background: linear-gradient(90deg, rgb(53, 226, 174) 40%, rgba(0,218,152,1) 100%);}
+    50% {background: linear-gradient(90deg, rgb(53, 226, 174) 50%, rgba(0,218,152,1) 100%);}
+    60% {background: linear-gradient(90deg, rgb(53, 226, 174) 60%, rgba(0,218,152,1) 100%);}
+    70% {background: linear-gradient(90deg, rgb(53, 226, 174) 70%, rgba(0,218,152,1) 100%);}
+    80% {background: linear-gradient(90deg, rgb(53, 226, 174) 80%, rgba(0,218,152,1) 100%);}
+    90% {background: linear-gradient(90deg, rgb(53, 226, 174) 90%, rgba(0,218,152,1) 100%);}
+    100% {background: linear-gradient(90deg, rgb(53, 226, 174) 100%, rgba(0,218,152,1) 100%);}
+}
+
+
+
+html{
+   height: 100%; 
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(132,0,255,1) 0%, rgba(255,0,0,1) 50%, rgba(0,12,255,1) 100%);
+
+}
+*{
+    font-family: sans-serif;
+}
+#result{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+.indexdiv{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#moeda{
+    height: 30px;
+    width: 50%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    border: rgb(26, 255, 236) solid;
+    outline: none;
+
+}
+.converter{
+    height: 50px;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(94, 228, 32);
+    border: none;
+    border-radius: 11px;
+    transition: backgroun-color 1s;
+    font-size: medium;
+}
+.converter:hover{
+    background-color: #01f784;
+    
+}
+#app{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
