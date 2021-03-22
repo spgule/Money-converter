@@ -1,16 +1,4 @@
-@-webkit-keyframes click{
-    0% {background: linear-gradient(90deg, rgba(0,218,152,1) 0%, rgba(0,218,152,1) 100%);}
-    10% {background: linear-gradient(90deg, rgb(53, 226, 174) 10%, rgba(0,218,152,1) 100%);}
-    20% {background: linear-gradient(90deg, rgb(53, 226, 174) 20%, rgba(0,218,152,1) 100%);}
-    30% {background: linear-gradient(90deg, rgb(53, 226, 174) 30%, rgba(0,218,152,1) 100%);}
-    40% {background: linear-gradient(90deg, rgb(53, 226, 174) 40%, rgba(0,218,152,1) 100%);}
-    50% {background: linear-gradient(90deg, rgb(53, 226, 174) 50%, rgba(0,218,152,1) 100%);}
-    60% {background: linear-gradient(90deg, rgb(53, 226, 174) 60%, rgba(0,218,152,1) 100%);}
-    70% {background: linear-gradient(90deg, rgb(53, 226, 174) 70%, rgba(0,218,152,1) 100%);}
-    80% {background: linear-gradient(90deg, rgb(53, 226, 174) 80%, rgba(0,218,152,1) 100%);}
-    90% {background: linear-gradient(90deg, rgb(53, 226, 174) 90%, rgba(0,218,152,1) 100%);}
-    100% {background: linear-gradient(90deg, rgb(53, 226, 174) 100%, rgba(0,218,152,1) 100%);}
-}
+
 
 
 
@@ -27,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
-    background: linear-gradient(90deg, rgba(132,0,255,1) 0%, rgba(255,0,0,1) 50%, rgba(0,12,255,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 
 }
 *{
@@ -39,11 +27,15 @@ body{
 }
 .indexdiv{
     display: flex;
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 40%;
+    border-radius: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    border: hidden;
 }
 form{
     display: flex;
@@ -57,24 +49,28 @@ form{
     height: 30px;
     width: 50%;
     margin-bottom: 10%;
-    border-radius: 15px;
-    border: rgb(26, 255, 236) solid;
+    background-color: rgba(255, 255, 255, 0.781);
+    border: none;
+    border-bottom: rgb(98, 175, 5) solid;
     outline: none;
+    margin-top: 5%;
 
 }
 .converter{
     height: 50px;
     width: 50%;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0);
     cursor: pointer;
     outline: none;
-    background-color: rgb(94, 228, 32);
+    background-color: #01f784;
     border: none;
     border-radius: 11px;
-    transition: backgroun-color 1s;
+    transition:  700ms;
     font-size: medium;
+    margin-bottom: 5%;
 }
 .converter:hover{
-    background-color: #01f784;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
     
 }
 #app{
@@ -84,5 +80,11 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+p{
+    font-size: 100%;
+}
+h1{
+    font-size: 100%;
 }
 
